@@ -1,0 +1,96 @@
+@CHARSET "ISO-8859-1";
+
+table td
+{
+	color: White;
+	font-size: 20px;
+}
+table th
+{
+	color: White;
+	font-size: 20px;
+}
+
+table tr
+{
+	color: White;
+	font-size: 20px;
+	height:50px;
+}
+table td
+{
+	color: White;
+	font-size: 20px;
+	width:50px;
+
+}
+body
+{
+	font-family: monospace;
+	font-size: 18px;
+	
+}
+table p{
+	color: White;
+	font-size: 20px;
+	font-family: monospace;
+}
+.container_div
+{
+	background-color:white;
+	display: inline-block;
+	float:right;
+	padding: 10px;
+	margin:10px;
+	clear:both;
+}
+
+#title_div
+{
+	text-align:center;
+	font-weight: bold;
+	font-size: 20px;
+	background-color: black;
+	color:white;
+	height: 20px;
+}
+#title_div a
+{
+	color:white;
+}
+
+ul#menu, ul#menu ul.sub-menu {
+    padding:0;
+    margin: 0;
+}
+ul#menu li, ul#menu ul.sub-menu li {
+    list-style-type: none;
+    display: inline-block;
+}
+/*Link Appearance*/
+ul#menu li a, ul#menu li ul.sub-menu li a {
+    text-decoration: none;
+    color: #fff;
+    background: #666;
+    padding: 5px;
+    display:inline-block;
+}
+/*Make the parent of sub-menu relative*/
+ul#menu li {
+    position: relative;
+}
+/*sub menu*/
+ul#menu li ul.sub-menu {
+    display:none;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 100px;
+}
+ul#menu li:hover ul.sub-menu {
+    display:block;
+}
+ul.sub-menu li a
+{
+	width:300;
+}
